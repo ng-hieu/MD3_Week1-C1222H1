@@ -10,7 +10,7 @@ const onMyBirthday = (isKayoSick) => {
 
     });
 };
-onMyBirthday(false)
+onMyBirthday(true)
     .then((data) => {
         console.log(`I have ${data} cakes`);
     })// In the console: I have 2 cakes
